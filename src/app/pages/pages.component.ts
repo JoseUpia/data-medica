@@ -12,7 +12,7 @@ export class PagesComponent implements OnInit {
   constructor() { }
   
   ngOnInit() {
-    localStorage.setItem('userName', 'Jose Upia');
+    localStorage.setItem('userName', 'Nombre de Usuario');
   }
 
   toggleSideMenuChange() {
